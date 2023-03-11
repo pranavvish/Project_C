@@ -2,7 +2,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 # Simple script illustrating how to visualize some of the data
-
+#changes
 # Loading sample data
 imu = pd.read_csv('Training/subject_001_01__x.csv');
 imu_t = pd.read_csv('Training/subject_001_01__x_time.csv');
