@@ -17,13 +17,7 @@ def Mod(X,y,X_t,y_t):
     X_test = X_test.reshape(X_t.shape[0], X_t.shape[1], 1)
     y_train = tf.keras.utils.to_categorical(y, num_classes=4)
     y_test = tf.keras.utils.to_categorical(y_t, num_classes=4)
-
-    # print(X_train)
-    # print(X_train.shape[0])
-    # print(X_train.shape[1])
-    # print(X_train.shape[2])
-    # print(y_test.shape)
-    
+  
     batch_size = 512
     
     model = Sequential()
